@@ -124,7 +124,7 @@ def categories():
             import json
             return json.dumps(default_categories, indent=2)
     except Exception as e:
-        return f'{{"error": "Could not load categories: {str(e)}"}}'
+        return f'{{"error": "Could not load categorie: {str(e)}"}}'
 
 # Start the server
 if __name__ == "__main__":
